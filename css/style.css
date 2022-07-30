@@ -1,0 +1,213 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #03060f;
+    padding-top: 30px;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-line {
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-wrap {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 9px;
+    background-color: #03060f;
+    box-shadow: -9px -10px 32px 6px #0b41be;
+}
+
+.burger-wrap:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    width: 59px;
+    height: 59px;
+    background: linear-gradient(155deg, #0b41be 40%, transparent);
+    border-radius: 9px;
+}
+
+.burger-line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.burger-line,
+.burger-line::before,
+.burger-line::after {
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #ffff;
+}
+
+.burger-line::before,
+.burger-line::after {
+    content: "";
+    left: 0;
+}
+
+.burger-line::before {
+    top: -10px;
+}
+
+.burger-line::after {
+    top: 10px;
+}
+
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+.text {
+    width: 40%;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    width: 60%;
+    position: relative;
+}
+
+.name-text {
+    display: flex;
+    align-items: flex-end;
+}
+
+.name-text h3,
+.name-text p {
+    margin: 0;
+}
+
+.name img {
+    position: absolute;
+    top: -200px;
+    left: -200px;
+}
+
+.name-text h3 {
+    margin-right: 32px;
+}
+
+b {
+    color: white;
+}
+
+.text a {
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 175px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03060f;
+    border-radius: 18px;
+    box-shadow: -9px -10px 60px 4px #0b41be;
+}
+
+.text a::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    width: 179px;
+    height: 49px;
+    background: linear-gradient(155deg, #0b41be 40%, transparent);
+    border-radius: 18px;
+}
+
+.text p {
+    margin: 60px 0;
+}
+
+.text {
+    margin: 0 130px 140px 0;
+}
+
+.car-info {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.column {
+    padding: 0 20px;
+    border-right: 1px solid #fff;
+}
+
+.column:last-child {
+    border: none;
+}
+
+.car-info b {
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.car-info p {
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+.dot {
+    margin: 0 13px;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    background: linear-gradient(to right bottom, #081027, #14244e 90%);
+    border-radius: 50%;
+}
